@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Conpitable" content="IE=edge">
+    <title>Document</title>
+<!--    FONT AWESOME CDN   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<!--    GOOGLE FONT CDN   -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!--    EXTERNAL CSS FILE   -->
+    <link rel="stylesheet" href="external/css/p-bars.css">
+    <link rel="stylesheet" href="external/css/normalize.css">
+    <link rel="stylesheet" href="external/css/grid.css">
+<!--    INTERNAL CSS FILE   -->
+    <link rel="stylesheet" href="internal/css/style.css">
+    <link rel="stylesheet" href="internal/css/responsive.css">
+    
+</head>
+<body>
+   
+<!--START HEADER SECTION-->
+
+   <header id="home">
+       <nav>
+           <div class="row">
+               <a href="#">
+                   <img src="images/logo.png"  class="logo" alt="cuda">
+               </a>
+               <ul class="mainNav">
+                   <li><a class="active" href="#home">home</a></li>
+                   <li><a href="#services-section">services</a></li>
+                   <li><a href="#team">team</a></li>
+                   <li><a href="#skill">skill</a></li>
+                   <li><a href="#portfolio">portfolio</a></li>
+                   <li><a href="#testimonial">testimonial</a></li>
+                   <li><a href="#contact">contact</a></li>
+               </ul>
+               <div class="mobile-menu">
+                   <span onclick="openNav()">&#9776</span>
+                   <div id="myNav" class="overlay">
+                       <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                       <div class="overlay-content">
+                          <a onclick="closeNav()" href="#home">home</a>
+                          <a onclick="closeNav()" href="#services-section">services</a>
+                          <a onclick="closeNav()" href="#team">team</a>
+                          <a onclick="closeNav()" href="#skill">skill</a>
+                          <a onclick="closeNav()" href="#portfolio">portfolio</a>
+                          <a onclick="closeNav()" href="#testimonial">testimonial</a>
+                          <a onclick="closeNav()" href="#contact">contact</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </nav>   
+           <div class="row">
+               <div class="hero-text-box">
+                   <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+               <a href="#" class="btn btn-hero">work with us</a>
+               </div>
+           </div>
+   </header>
+
+<!--END HEADER SECTION-->
+  
+  
+  
+<!--  START SERVICES SECTION  -->
+
+<section id="services-section" class="clearfix js-services-section">
+    <div class="row">
+        <h2>SERVICES WE PROVIDE</h2>
+        <p class="little-discription">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <img src="images/branding.png" alt="branding">
+            <h3>BRANDING</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="images/design.png" alt="branding">
+            <h3>DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="images/development.png" alt="branding">
+            <h3>DEVELOPMENT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="images/rocket.png" alt="branding">
+            <h3>ROCKER SCIENCE</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+        </div>
+    </div>
+</section>
+
+<!--  END SERVICES SECTION  -->
+  
+  
+  
+  
+<!--  START TEAM SECTION   -->
+<section id="team" class="clearfix">
+    <div class="row">
+        <h2>MEET OUT BEAUTIFUL TEEM</h2>
+        <p class="little-discription">We are a small team of designers and developers, who help brands with big ideas </p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <img class="team-member" src="images/habib.jpg" alt="habib">
+            <h3>HABIBUR ROHOMAN</h3>
+            <span class="role">SEO/Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio optio expedita qui similique voluptatibus. Unde.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img class="team-member" src="images/nayeem.jpg" alt="habib">
+            <h3>HABIBUR ROHOMAN</h3>
+            <span class="role">SEO/Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio optio expedita qui similique voluptatibus. Unde.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img class="team-member" src="images/limon.jpg" alt="habib">
+            <h3>HABIBUR ROHOMAN</h3>
+            <span class="role">SEO/Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio optio expedita qui similique voluptatibus. Unde.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img class="team-member" src="images/partho.jpg" alt="habib">
+            <h3>HABIBUR ROHOMAN</h3>
+            <span class="role">SEO/Marketing Guru</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio optio expedita qui similique voluptatibus. Unde.</p>
+            <div class="social-link">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  END TEAM SECTION   -->
+  
+  
+  
+  
+<!--  START SKILL SECTION   -->
+<section id="skill" class="clearfix">
+    <div class="row">
+        <h2>WE GIT SKILLS</h2>
+        <p class="little-discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quidem tempora dolores nisi rerum debitis.</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4">
+            <svg class="radial-progress web-design" data-percentage="80" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">80%</text>
+            </svg>
+            <h3>WEB DESIGN</h3>
+        </div>
+        <div class="col span_1_of_4">
+            <svg class="radial-progress html" data-percentage="90" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+            </svg>
+            <h3>HTML & CSS</h3>
+        </div>
+        <div class="col span_1_of_4">
+            <svg class="radial-progress graphic" data-percentage="60" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">60%</text>
+            </svg>
+            <h3>GRAPHIC DESIGN</h3>
+        </div>
+        <div class="col span_1_of_4">
+            <svg class="radial-progress ui" data-percentage="70" viewBox="0 0 80 80">
+              <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+            </svg>
+            <h3>UI & UX</h3>
+        </div>
+    </div>
+</section>
+<!--  END SKILL SECTION   -->
+  
+  
+  
+  
+<!--  START PORTFOLIO SECTION  -->
+<section id="portfolio" class="clearfix">
+    <div class="row">
+        <h2>OUR PORTFOLIO</h2>
+        <p class="little-discription">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+    </div>
+    <div class="row">
+        <div class="portfolio-filter">
+            <button type="button" data-filter="all">all</button>
+            <button type="button" data-filter=".web">web</button>
+            <button type="button" data-filter=".app">apps</button>
+            <button type="button" data-filter=".icon">icons</button>
+        </div>
+    </div>    
+        <div class="row p-w container">
+            <div class="col span_1_of_2 mix app icon box">
+                <img src="images/portfolio1.png" class="portfolio-img" alt="portfolio">
+                <h4>Isometric Perspective Mock-Up</h4>
+            </div>
+            <div class="col span_1_of_2 mix  box">
+                <img src="images/portfolio2.png" class="portfolio-img" alt="portfolio">
+                <h4>Isometric Perspective Mock-Up</h4>
+            </div>
+            <div class="col span_1_of_2 mix app icon web box">
+                <img src="images/portfolio3.png" class="portfolio-img" alt="portfolio">
+                <h4>Isometric Perspective Mock-Up</h4>
+            </div>
+            <div class="col span_1_of_2 mix app box">
+                <img src="images/portfolio4.png" class="portfolio-img" alt="portfolio">
+                <h4>Isometric Perspective Mock-Up</h4>
+            </div>
+       </div>
+<!--       <div class="btn btn-load-more">load more project</div>-->
+</section>
+<!--  END PORTFOLIO SECTION  -->
+
+
+
+
+<!--  START PORTFOLIO SECTION  -->
+<section id="testimonial" class="clearfix">
+    <div class="row">
+        <h2>WHAT POEPLE SAY ABOUT US</h2>
+        <p class="little-discription">our clints love us</p>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_2 box">
+            <div class="clint-photo">
+                <img src="images/partho.jpg" alt="our clint">
+            </div>
+            <div class="clint-review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h3>HABIBUR ROHOMAN</h3>
+                <span class="role">CEO of pentarest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2 box">
+            <div class="clint-photo">
+                <img src="images/limon.jpg" alt="our clint">
+            </div>
+            <div class="clint-review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h3>HABIBUR ROHOMAN</h3>
+                <span class="role">CEO of pentarest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2 box">
+            <div class="clint-photo">
+                <img src="images/suhan.jpg" alt="our clint">
+            </div>
+            <div class="clint-review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h3>HABIBUR ROHOMAN</h3>
+                <span class="role">CEO of pentarest</span>
+            </div>
+        </div>
+        <div class="col span_1_of_2 box">
+            <div class="clint-photo">
+                <img src="images/tuhin.jpg" alt="our clint">
+            </div>
+            <div class="clint-review">
+                <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                <h3>HABIBUR ROHOMAN</h3>
+                <span class="role">CEO of pentarest</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  END PORTFOLIO SECTION  -->
+
+
+
+
+<!--  START CONTACT SECTION   -->
+<section id="contact" class="clearfix">
+    <div class="row">
+        <h2>GET IN TOUCH</h2>
+        <p class="little-discription">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+    </div>
+    <div class="row">
+        <form action="https://formspree.io/billahmukim@gmail.com" method="post">
+            <div class="row">
+                <div class="col span_1_of_2">
+                    <input type="text" name="Name" placeholder="Your Name *" required>
+                </div>
+                <div class="col span_1_of_2">
+                    <input type="email" name="Email" placeholder="Your Email *" required>
+                </div>
+            </div>
+             <div class="row">
+                <textarea name="massage" cols="20" rows="7" placeholder="Your Massage *" required></textarea>
+            </div>
+            <div class="row">
+                <input type="submit" value="SENT MESSAGE" class="btn btn-submit">
+            </div>
+        </form>
+    </div>
+</section>
+<!--  END CONTACT SECTION   -->
+
+
+
+
+
+<footer class="footer">
+    <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Google+</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Behance</a></li>
+        <li><a href="#">Dribble</a></li>
+        <li><a href="#">GitHub</a></li>
+    </ul>
+</footer>
+
+ 
+ 
+ 
+   
+    
+<!--    EXTERNAL JS FILE   -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="external/js/html5shiv.min.js"></script>
+    <script src="external/js/respond.min.js"></script>
+    <script src="external/js/selectivizr-min.js"></script>
+    <script src="external/js/p-bars.js"></script>
+    <script src="external/js/mixitup.min.js"></script>
+    <script src="external/js/jquery.waypoints.min.js"></script>
+    
+    <script src="external/js/parallax.min.js"></script>
+    
+    <script src="internal/js/main.js"></script>
+    
+    
+<!--    INTERNAL JS FILE   -->
+</body>
+</html>
